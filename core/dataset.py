@@ -90,3 +90,7 @@ def process_images(image_dir):
         class_mode='binary')
 
     return generator
+
+
+if __name__ == '__main__':
+    organize()
