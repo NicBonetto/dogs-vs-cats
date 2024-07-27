@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dogs-vs-cats"
+authors = [
+  { name: "Nicholas Bonetto", email: "nick.bonetto@gmail.com" }
+]
+description = "A machine learning model that uses convolutional neural networks to label images of dogs and cats."
+dependencies = [
+  "tensorflow",
+  "keras",
+  "numpy",
+  "matplotlib"
+]
